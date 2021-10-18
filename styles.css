@@ -312,11 +312,10 @@ a:active {
 	font-size: clamp(0.8rem, 4vw, 1.2rem);
 }
 @media screen and (max-width: 768px) {
-	
 	.hero__content .title {
 		font-size: clamp(3rem, 4vw, 6rem);
 	}
-	
+
 	.hero__content .motto {
 		font-size: clamp(2rem, 4vw, 3rem);
 	}
