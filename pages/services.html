@@ -5,35 +5,116 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- src styles -->
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="../styles.css" />
 		<title>💪 FitiKunto</title>
 	</head>
 	<body data-theme="light">
 		<!-- Nav -->
-		<!-- 
-			
-
-			asdfä
-		 -->
-
 		<nav class="nav-bar">
-			<a href="#" class="nav-bar__logo">💪 FitiKunto </a>
+			<a href="/" class="nav-bar__logo"> 💪 FitiKunto </a>
 
 			<div class="nav-bar__toggle" id="nav-bar__mobile-menu">
-				<span class="bar"></span>
-				<span class="bar"></span>
-				<span class="bar"></span>
+				<span class="menu-bar"></span>
+				<span class="menu-bar"></span>
+				<span class="menu-bar"></span>
 			</div>
 
 			<div class="nav-bar__menu">
-				<a href="/" class="nav-bar__link">home</a>
-				<a href="/pages/services.html" class="nav-bar__link">Services</a>
-				<a href="/pages/programs.html" class="nav-bar__link">Programs</a>
-				<a href="/pages/coaches.html" class="nav-bar__link">Coaches</a>
+				<a href="/" class="nav-bar__link">
+					<span class="nav-link__emoji"> 🏠 </span> home
+				</a>
+				<a href="/pages/services.html" class="nav-bar__link">
+					<span class="nav-link__emoji"> 💼 </span> services
+				</a>
+				<a href="/pages/plans.html" class="nav-bar__link">
+					<span class="nav-link__emoji"> 📌 </span> plans
+				</a>
+				<a href="/pages/staff.html" class="nav-bar__link">
+					<span class="nav-link__emoji"> 🧙‍♂️ </span> staff
+				</a>
 			</div>
 		</nav>
-		<h1>services</h1>
+
+		<!-- Service Offers -->
+
+		<section class="services">
+			<div class="services__wrapper">
+				<div>
+					<pre class="by-line">Services</pre>
+					<h1 class="services__title">We provide</h1>
+					<ul class="service__offers">
+						<li class="service__offer">
+							<i class="service__icon" data-feather="clock"></i>
+							<p>24/7 accessibility</p>
+						</li>
+
+						<li class="service__offer">
+							<i class="service__icon" data-feather="info"></i>
+							<p>Personal Coaching</p>
+						</li>
+
+						<li class="service__offer">
+							<i class="service__icon" data-feather="users"></i>
+							<p>Group Workouts</p>
+						</li>
+
+						<li class="service__offer">
+							<i class="service__icon" data-feather="droplet"></i>
+							<p>Indoor Pool & Sauna</p>
+						</li>
+
+						<li class="service__offer">
+							<i class="service__icon" data-feather="box"></i>
+							<p>Supplements & Gear</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						class="services__img"
+						src="../assets/images/g-2.jpg"
+						alt="services"
+					/>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__info">
+					<h1>💪FitiKunto</h1>
+					<p>📌 rikasihmistenkatu 1A, €€€40, Helsinki, Finland</p>
+					<p id="mobile">+358-40-123-4567</p>
+				</div>
+				<div class="footer__links">
+					<pre class="footer__title">Contacts</pre>
+					<a href="/pages/services.html" class="footer__link">Chat</a>
+					<a href="/pages/services.html" class="footer__link">Mobile</a>
+					<a href="/pages/services.html" class="footer__link">Mailing</a>
+				</div>
+			</div>
+			<div class="footer__wrapper">
+				<div class="footer__links">
+					<pre class="footer__title">Subscriptions</pre>
+					<a href="/pages/services.html" class="footer__link">Pricing</a>
+					<a href="/pages/services.html" class="footer__link">FaQ</a>
+					<a href="/pages/services.html" class="footer__link">Sponsors</a>
+					<a href="/pages/services.html" class="footer__link">Hq Operations</a>
+				</div>
+				<div class="footer__links">
+					<pre class="footer__title">Socials</pre>
+					<a href="/pages/services.html" class="footer__link">LinkedIn</a>
+					<a href="/pages/services.html" class="footer__link">Medium</a>
+					<a href="/pages/services.html" class="footer__link">Instagram</a>
+					<a href="/pages/services.html" class="footer__link">Twitter</a>
+				</div>
+			</div>
+		</footer>
+		<!-- feather icons -->
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
 		<!-- src script -->
-		<script defer src="script.js"></script>
+		<script defer src="../script.js"></script>
 	</body>
 </html>

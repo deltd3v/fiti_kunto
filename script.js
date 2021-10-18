@@ -14,3 +14,6 @@ const toggleMobileMenu = () => {
 };
 
 el.navMenu.addEventListener('click', toggleMobileMenu);
+
+// replace data-feather icons
+feather.replace();
