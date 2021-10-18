@@ -34,8 +34,12 @@ a,
 .link,
 button,
 .btn {
-	font-weight: bold;
 	font-family: 'Exo 2', sans-serif;
+}
+
+.btn,
+button {
+	font-weight: bold;
 }
 
 /* Fluid Typography */
