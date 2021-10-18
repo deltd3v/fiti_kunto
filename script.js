@@ -73,7 +73,7 @@ gsap.from('.staff-anim', {
 	opacity: 0,
 	y: -145,
 	stagger: 0.4,
-	delay: 0.4,
+	delay: .4,
 });
 
 // mail section animations. Make the elements
@@ -82,6 +82,6 @@ gsap.from('.mail-anim', {
 	duration: 1,
 	opacity: 0,
 	y: -130,
-	stagger: 0.35,
-	delay: 0.2,
+	stagger: 0.6,
+	delay: 0.6,
 });
